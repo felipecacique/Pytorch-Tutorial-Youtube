@@ -2,6 +2,11 @@
 ## Overview
 This project focuses on classifying images of animals into 90 different classes using machine learning techniques. It utilizes a dataset of 5400 labeled animal images sourced from [Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals).
 
+## Technologies Used
+- Python
+- PyTorch
+- GPU
+
 ## Dataset
 The dataset consists of images of various animal species, with each image labeled with the corresponding animal class. This allows for supervised learning.
 
@@ -10,15 +15,15 @@ The model architecture is based on a convolutional neural network (CNN) with the
 
 ## Training Process
 
-**Data Loading and Preprocessing:** Images are loaded and preprocessed using data augmentation techniques such as random cropping, flipping, and rotation.
+- **Data Loading and Preprocessing:** Images are loaded and preprocessed using data augmentation techniques such as random cropping, flipping, and rotation.
 
-**Model Definition:** The CNN model architecture is defined, consisting of the EfficientNet_B3 or ConvNeXt backbone followed by custom fully connected layers for classification.
+- **Model Definition:** The CNN model architecture is defined, consisting of the EfficientNet_B3 or ConvNeXt backbone followed by custom fully connected layers for classification.
 
-**Loss Function and Optimizer:** Cross-entropy loss function and the Adam optimizer are used for training.
+- **Loss Function and Optimizer:** Cross-entropy loss function and the Adam optimizer are used for training.
 
-**Training Loop:** The model is trained over multiple epochs, with batches of images fed into the model for forward pass, loss calculation, and backward pass for gradient descent.
+- **Training Loop:** The model is trained over multiple epochs, with batches of images fed into the model for forward pass, loss calculation, and backward pass for gradient descent.
 
-**Evaluation:** The trained model is evaluated on a separate test set to assess its generalization performance.
+- **Evaluation:** The trained model is evaluated on a separate test set to assess its generalization performance.
 
 ## Results
 The trained model achieves an accuracy of 90.9% on the test set, indicating its effectiveness in classifying animal images.

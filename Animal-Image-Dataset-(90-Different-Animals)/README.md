@@ -1,4 +1,4 @@
-# Animal Image Classification
+# Animal Image Classification using PyTorch
 
 <img src="https://raw.githubusercontent.com/felipecacique/Pytorch-Tutorial-Youtube/main/Animal-Image-Dataset-(90-Different-Animals)/img/giphy.gif" />
 

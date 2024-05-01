@@ -1,4 +1,7 @@
 # Animal Image Classification
+
+<img src="https://raw.githubusercontent.com/felipecacique/Pytorch-Tutorial-Youtube/main/Animal-Image-Dataset-(90-Different-Animals)/img/giphy.gif" />
+
 ## Overview
 This project focuses on classifying images of animals into 90 different classes using machine learning techniques. It utilizes a dataset of 5400 labeled animal images sourced from [Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals).
 
@@ -28,5 +31,11 @@ The model architecture is based on a convolutional neural network (CNN) with the
 ## Results
 The trained model achieves an accuracy of 90.9% on the test set, indicating its effectiveness in classifying animal images.
 
+## Predictions Preview
+A few predictions from our model:
+
+<img src="https://raw.githubusercontent.com/felipecacique/Pytorch-Tutorial-Youtube/main/Animal-Image-Dataset-(90-Different-Animals)/img/prediction_animal.png" />
+
 ## Conclusion
 This project demonstrates the use of transfer learning and deep learning techniques for animal image classification, with potential applications in wildlife monitoring, species identification, and conservation efforts.
+
